@@ -1,0 +1,5 @@
+$content = Get-Content Z:\TEMP\test.txt
+foreach ($line in $content)
+{
+    Write-Host $line
+}

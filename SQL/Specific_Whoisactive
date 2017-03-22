@@ -1,0 +1,4 @@
+/*sp_whoisactive*/
+EXEC sp_WhoIsActive 
+@filter_type = 'database', 
+@filter = 'Database_Name'

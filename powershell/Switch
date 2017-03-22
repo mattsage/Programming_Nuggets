@@ -1,0 +1,7 @@
+switch ($x)
+{
+    'value1' {}
+    {$_ -in 'A','B','C'} {}
+    'value3' {}
+    Default {}
+}
